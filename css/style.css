@@ -1,0 +1,398 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans - Extrabold", sans-serif;
+}
+
+.page-font {
+  color: #F7600E;
+}
+
+header {
+  position: absolute;
+  top: 50px;
+  left: 461px;
+  width: 1107px;
+  height: 21px;
+  color: #ffffff;
+}
+
+h1 {
+  height: 18px;
+  width: 158px;
+  float: left;
+  font-size: 18px;
+  margin: 0;
+  padding-right: 863px;
+}
+
+.header-text {
+  width: 41px;
+  height: 12px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+header ul {
+  display: inline-block;
+  list-style-type: none;
+  width: 26px;
+  padding-left: 0;
+  margin: 0 0 0 19px;
+}
+
+header ul:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+header li {
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  height: 6px;
+  width: 26px;
+}
+
+.slider {
+  position: relative;
+  color: #ffffff;
+  background-image: url("../img/macbook-925614.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 2000px;
+  overflow: hidden;
+  height: 1080px;
+  text-align: center;
+}
+
+.fon-slider {
+  position: absolute;
+  top: -62px;
+  left: -10px;
+  width: 2015px;
+  height: 862px;
+  background-color: #3b434c;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0.9;
+}
+
+.slider h2 {
+  padding-left: 100px;
+  width: 677px;
+  height: 52px;
+  font-size: 58px;
+  text-align: center;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.slider p {
+  font-size: 25px;
+  line-height: 40px;
+  width: 774px;
+  height: 75px;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.button-wrapper {
+  margin: 65px auto;
+  width: 456px;
+}
+
+.button:first-child {
+  float: left;
+}
+
+.button:last-child {
+  float: right;
+}
+
+.button {
+  width: 213px;
+  height: 53px;
+  border: 1px solid #5A5D60;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.button:hover {
+  background-color: #F7600E;
+  border: 1px solid #F7600E;
+  cursor: pointer;
+}
+
+.wrapper-slider {
+  position: absolute;
+  top: 250px;
+  left: 610px;
+}
+
+.wrapper-slider img {
+  margin-top: 110px;
+}
+
+.second-background {
+  position: relative;
+  background-image: url("../img/tablet-791051.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 2000px;
+  height: 1000px;
+}
+
+.our-services {
+  display: flex;
+  position: absolute;
+  top: -280px;
+  width: 2000px;
+  height: 500px;
+  background-color: white;
+}
+
+.our-services h2, .newsletter h2 {
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.our-services ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: #3b434c;
+  margin: auto;
+}
+
+.our-services li {
+  width: 158px;
+  height: 289px;
+  float: left;
+  display: inline;
+  margin-right: 120px;
+  color: #3b434c;
+}
+
+.our-services li h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.our-services li p {
+  font-size: 14px;
+  line-height: 22px;
+  width: 158px;
+  height: 66px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.pict {
+  width: 154px;
+  height: 154px;
+  border: 2px solid #C5C7CA;
+  border-radius: 77px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pict-print {
+  background-image: url("../img/print.jpg");
+}
+
+.pict-web {
+  background-image: url("../img/web.jpg");
+}
+
+.pict-app {
+  background-image: url("../img/app.jpg");
+}
+
+.pict-logo {
+  background-image: url("../img/logo.jpg");
+}
+
+.newsletter {
+  position: absolute;
+  top: 215px;
+  width: 2000px;
+  height: 250px;
+  background-color: #3b434c;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0.9;
+  display: flex;
+  padding-left: 500px;
+}
+
+.email-button {
+  width: 269px;
+  height: 50px;
+  border: 1px solid #F7600E;
+  border-radius: 10px;
+  color: white;
+  background-color: #F7600E;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 16px;
+}
+
+input {
+  width: 562px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+form, .email-button {
+  display: inline-block;
+  margin: auto 15px;
+}
+
+.our-works {
+  position: absolute;
+  top: 465px;
+  width: 2000px;
+  height: 1300px;
+  background-color: white;
+}
+
+.our-works h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.our-works p {
+  width: 455px;
+  height: 51px;
+  color: #3b434c;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  margin: 40px auto 100px;
+  overflow: hidden;
+}
+
+.our-works ul {
+  width: 1250px;
+  height: 750px;
+  margin: 0 auto;
+}
+
+.our-works li {
+  float: left;
+  display: inline;
+  margin: 0 30px 30px 0;
+  width: 360px;
+  height: 360px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.first-work {
+  background-image: url("../img/imac-p1.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.second-work {
+  background-image: url("../img/office-p2.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.third-work {
+  background-image: url("../img/business-p3.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.fourth-work {
+  background-image: url("../img/ipad-p4.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.fifth-work {
+  background-image: url("../img/technology-p5.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.sixth-work {
+  background-image: url("../img/macbook-p6.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: relative;
+}
+
+.hover-layer {
+  width: 360px;
+  height: 360px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #f7600e;
+  opacity: 0;
+}
+
+.hover-layer:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.hover-layer h3 {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hover-layer p {
+  width: 251px;
+  height: 50px;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.hover-layer div {
+  width: 210px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #f7600e;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 14px;
+  margin: 0 auto;
+}
+
+.white-button {
+  position: absolute;
+  left: 895px;
+  bottom: 100px;
+  width: 210px;
+  height: 50px;
+  color: #3b434c;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 15px;
+  border: 2px solid #EDEEEF;
+  border-radius: 10px;
+}
